@@ -1,0 +1,64 @@
+body {
+    background: url("../images/seamless-brick-wall-patterns-1139/seamless-brick-wall-patterns-1139/seamless-brick-wall-pattern-1139.png");    
+}
+
+#title {
+   background-color: rgb(197, 108, 0);
+   height: 150px;
+   width: 600px;
+   font-size: 70px;
+   color: white;
+   padding: 30px 0px 10px 14px; 
+   margin-top: 10px;
+}
+
+#instructions {
+    background-color: beige;
+    height: 700px;
+    width: 800px;
+    font-size: 30px;
+    color: green;
+    padding: 20px 20px 10px 20px; 
+    margin-top: 10px;
+}
+
+#targetScore {
+    float: left;
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    font-size: 50px;
+    color: black;
+    padding: 20px 20px 10px 20px; 
+    margin-top: 10px;
+}
+
+#winLoss {
+    float: left;
+    background-color: aqua;
+    height: 200px;
+    width: 150px;
+    font-size: 50px;
+    color: black;
+    padding: 20px 20px 10px 20px; 
+    margin: 10px 20px 10px 20px;
+    margin-right: 100px;
+}
+
+#crystal {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    height: 40px;
+    width: 40px;
+}
+
+#scoreBar {
+    float: left;
+    background-color: rgb(34, 158, 142);
+    height: 50px;
+    width: 150px;
+    font-size: 50px;
+    color: white;
+    padding: 20px 20px 10px 20px; 
+    margin: 10px 10px 10px 20px;
+}
