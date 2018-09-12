@@ -1,5 +1,5 @@
 body {
-    background: url("../images/seamless-brick-wall-patterns-1139/seamless-brick-wall-patterns-1139/seamless-brick-wall-pattern-1139.png");    
+    background: url("../images/seamless-brick-wall-patterns-1139/seamless-brick-wall-patterns-1139/seamless-brick-wall-pattern-1139.png"); 
 }
 
 #title {
@@ -14,15 +14,15 @@ body {
 
 #instructions {
     background-color: beige;
-    height: 700px;
+    height: 350px;
     width: 800px;
-    font-size: 30px;
+    font-size: 20px;
     color: green;
     padding: 20px 20px 10px 20px; 
     margin-top: 10px;
 }
-
-#targetScore {
+  
+#targetNum {
     float: left;
     background-color: green;
     height: 200px;
@@ -38,27 +38,62 @@ body {
     background-color: aqua;
     height: 200px;
     width: 150px;
-    font-size: 50px;
+    font-size: 25px;
     color: black;
-    padding: 20px 20px 10px 20px; 
+    padding: 10px 10px 10px 10px; 
     margin: 10px 20px 10px 20px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+}
+.img-container {
+    float: left;
+    width: 25%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+  }
+
+img {
+    max-width: 75%;
+    max-height: 75%;
 }
 
-#crystal {
-    float: left;
-    margin: 10px 10px 10px 10px;
-    height: 40px;
-    width: 40px;
+#crystal1 {
+    /* float: left; */
+    margin: 10px 5px 10px 5px;
+    box-sizing: border-box;
+}
+
+#crystal2 {
+    margin: 10px 5px 10px 5px;
+    box-sizing: border-box;
+}
+
+#crystal3 {
+    margin: 10px 5px 10px 5px;
+    box-sizing: border-box;
+}
+
+#crystal4 {
+    margin: 10px 5px 10px 5px;
+    box-sizing: border-box;
 }
 
 #scoreBar {
     float: left;
     background-color: rgb(34, 158, 142);
-    height: 50px;
-    width: 150px;
-    font-size: 50px;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
     color: white;
     padding: 20px 20px 10px 20px; 
     margin: 10px 10px 10px 20px;
+}
+
+#totalScore {
+    float: left;
+    background-color: rgb(34, 158, 142);
+    height: 200px;
+    width: 400px;
+    font-size: 50px;
+    color: black;
+    padding: 20px 20px 10px 20px; 
+    margin-top: 10px;
 }
