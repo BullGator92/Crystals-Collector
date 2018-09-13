@@ -50,7 +50,7 @@ body {
     padding: 5px; /* if you want space between the images */
   }
 
-img {
+div.gallery img {
     max-width: 75%;
     max-height: 75%;
 }
