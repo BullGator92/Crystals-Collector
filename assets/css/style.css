@@ -44,15 +44,19 @@ body {
     margin: 10px 20px 10px 20px;
     /* margin-right: 100px; */
 }
-.img-container {
+/* .img-container {
     float: left;
     width: 25%; /* three containers (use 25% for four, and 50% for two, etc) */
     padding: 5px; /* if you want space between the images */
-  }
+  } */
 
 .gallery img {
-    max-width: 75%;
-    max-height: 75%;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    float: left;
 }
 
 #crystal1 {
