@@ -69,8 +69,8 @@ function scoreUpdate(){
         reset();
     }
     $("#targetNum").html(targetNum);
-    $("#wins").html(wins);
-    $("#losses").html(losses);
+    $("#wins").html("Wins: " + wins);
+    $("#losses").html("Losses: " + losses);
 }
 
 // document.getElementById("totalScore").innerHTML = totalScore;
@@ -79,5 +79,5 @@ function scoreUpdate(){
 // document.getElementById("losses").innerHTML = "Losses: " + losses;
 
 $("#targetNum").html(targetNum);
-$("#wins").html(wins);
-$("#losses").html(losses);
+$("#wins").html("Wins: " + wins);
+$("#losses").html("Losses: " + losses);
