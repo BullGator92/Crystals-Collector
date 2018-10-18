@@ -1,4 +1,4 @@
-# Crystal Collector
+# Crystals Collector
 
 Browser-based game 
 
