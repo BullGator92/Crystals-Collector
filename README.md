@@ -1,7 +1,13 @@
-# unit-4-game
+# Crystal Collector
 
->What the project does
->Why the project is useful
->How users can get started with the project
->Where users can get help with your project
->Who maintains and contributes to the project
+Browser-based game 
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+## Built With
+
+Love
+
+
