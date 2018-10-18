@@ -23,13 +23,13 @@ var totalScore = 0;
 reset();
 
 //When clicked, adds crystal's value to the total score. How do I pass the value and add it to the total score?
-$("#crystal1").click(function(){
+$("#crystal1").on("click", function(){
     //return("totalScore");
     totalScore += crystal1;
     console.log(totalScore);
     scoreUpdate();
 });
-$("#crystal2").click(function(){
+$("#crystal2").on("click", function(){
     //return("totalScore");
     totalScore += crystal2;
     console.log(totalScore);
